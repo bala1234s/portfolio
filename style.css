@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.intro{
+    display: flex;
+}
+.con{
+    
+    margin-left: 90px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hello{
+    margin-left: 1px;
+    font-weight: 1000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #0fdb27;
+}
+.profile{
+    margin-left: 200px;
+    margin-top: 60px;
+    
+    height: 200px;
+    width: 180px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.myself{
+   font-size: 20px;
+    margin-left: 40px;
+    margin-top: 90px;
+    inline-size: 700px;
+    color: white;
+}
+.about-me{
+    display: flex;
+}
+h3{
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    block-size: 20px;
+}
+.logo{
+    font-family:'Acme', sans-serif ;
+    text-align: center;
+    color: lightblue;
+}
+.about-link{
+    font-weight: bold;
+    color: white;
+    border-radius:21px ;
+    border: none;
+    inline-size: 100px;
+    block-size: 40px;
+    margin-left: 700px;
+    margin-top: 40px;
+    background-color: purple;
+}
+.about-link:hover{
+    color: purple;
+    box-shadow: inset 300px 0 0 0 #fff;
+}
+.nav_bar{
+    padding-top: 5px;
+    block-size: 40px;
+    text-align: center;
+    background-color: white;
+  
+    
+    display: flex;
+}
+.nav_bar a {
+    
+   
+    font-family: 'Acme', sans-serif;
+   font-size:  'Courgette', cursive;
+    color: black;
+    padding: 5px;
+    border-radius: 21px;
+    block-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.nav-option{
+    margin-top: 5px;
+    margin-left: 500px;
+}
+.nav_bar a:hover{
+    color: #fff;
+    background-color: rgb(19, 29, 168);
+}
+.nav_bar span button{
+    background-color: green;
+    border: none;
+   margin-left: 10px;
+    color: #fff;
+    inline-size: 90px;
+    block-size: 35px;
+}
+.nav_bar span button:hover{
+    background-color: blue;
+   
+}
+.nav_bar span{
+    margin: 0px;
+}
+.linkedin{
+    margin-left: 700px;
+    margin-top: 30px;
+    height: 35px;
+    width: 35px;
+}
+.github{
+   
+        margin-left: 50px;
+        margin-top: 30px;
+        height: 35px;
+        width: 35px;
+    
+}
+/* education */
+.edu-title{
+    text-align: center;
+    color: #fff;
+    block-size: 0px;
+}
+.edu,.edu1{
+   
+    margin: 0px;
+    padding: 0%;
+   
+    text-align: center;
+    color: white;
+}
+.school_logo{
+    height: 150px;
+    width: 150px;
+}
+.education{
+    block-size: 0%;
+    gap: 20px;
+    display: flex;
+}
+.college{
+    border-radius: 80px;
+    padding: 70px;
+   height: 500px;
+   width: 500px;
+   block-size: 350px;
+   inline-size: 400px;
+    
+    margin-left:100px ;
+}
+.school{
+    
+    
+    padding-top: 70px;
+   padding-left: 140px;
+   height: 500px;
+   width: 500px;
+   block-size: 420px;
+   inline-size: 400px;
+  
+    margin-left:10px ;
+}
+.college table{
+    border-radius: 10px;
+    block-size: 130px;
+    border:2px solid #fff;
+    margin-top: 50px;
+}
+.about-college{
+    
+    font-weight: bold;
+    color: white;
+    border-radius:21px ;
+    border: none;
+    inline-size: 100px;
+    block-size: 40px;
+   margin-left: 100px;
+    margin-top: 40px;
+    background-color: purple;
+   
+}
+
+.school table{
+    padding: 8px;
+    border-radius: 10px;
+    border:2px solid #fff;
+    margin-top: 20px;
+}
+
+.internship p{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.t1{
+    color: aqua;
+}
+.table_internship{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 450px ;
+    margin-top: 60px;
+}
+.table_course{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 550px ;
+    margin-top: 60px;
+    
+}
+.achieve p{
+          
+    color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 60px;
+        
+    }
+
+/* ex&co */
+.extra h1{
+    margin-left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.extra ul {
+   padding-top: 10px;
+   padding-left: 100px;
+    block-size: 150px;
+    inline-size: 800px;
+    border: 2px solid yellow;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: lightgreen;
+}
+.extra ul li{
+   margin-top: 10px;
+}
+.co-curri h1{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.co-curri ul {
+    padding-top: 10px;
+    padding-left: 100px;
+     block-size: 80px;
+     inline-size: 800px;
+     border: 2px solid rgb(54, 5, 133);
+     border-radius: 30px;
+     margin-left: 100px;
+    margin-top: 30px;
+    color: lightgreen;
+}
+.co-curri ul li{
+    margin-top: 10px;
+
+}
+
+/* map */
+.map iframe{
+    block-size: 90px;
+    inline-size: 400px;
+   
+}
+.map{
+    margin: 110px;
+    margin-left: 500px;
+}
+/* feedback */
+h2{
+    font-size: 40px;
+    color: rgb(0, 109, 199);
+}
+
+.feedback{
+    margin: 100px;
+    margin-left: 400px;
+}
+.feedback textarea{
+    block-size: 100px;
+}
+
+.submit-link{
+    font-weight: bold;
+    color: white;
+    border-radius:21px ;
+    border: none;
+    inline-size: 100px;
+    block-size: 40px;
+    
+    margin-top: 40px;
+    background-color: purple;
+}
+.submit-link:hover{
+    color: purple;
+    box-shadow: inset 300px 0 0 0 #fff;
+}
+.contact p a{
+   text-decoration: none;
+   color: #fff;
+}
+.contact p{
+    padding-top: 8px;
+    block-size: 30px;
+    margin-left: 530px;
+    inline-size: 350px;
+    border: 2px solid ;
+    color:#fff;
+}
+.contact{
+    text-align: center;
+    margin: 50px;
+    
+}
+.links a img{
+   margin-left: 0%;
+}
